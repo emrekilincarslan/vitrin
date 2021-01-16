@@ -1,0 +1,1365 @@
+{
+  "request": {
+    "httpContext": {
+      "response": {
+        "statusCode": 0,
+        "body": {
+          "position": 0,
+          "readTimeout": 0,
+          "writeTimeout": 0
+        },
+        "bodyWriter": {},
+        "contentLength": 0,
+        "contentType": "string",
+        "cookies": {}
+      },
+      "connection": {
+        "id": "string",
+        "remoteIpAddress": {
+          "addressFamily": "Unknown",
+          "scopeId": 0
+        },
+        "remotePort": 0,
+        "localIpAddress": {
+          "addressFamily": "Unknown",
+          "scopeId": 0
+        },
+        "localPort": 0,
+        "clientCertificate": {
+          "archived": true,
+          "friendlyName": "string",
+          "privateKey": {
+            "keySize": 0
+          },
+          "issuerName": {
+            "oid": {
+              "value": "string",
+              "friendlyName": "string"
+            },
+            "rawData": "string"
+          },
+          "publicKey": {
+            "encodedKeyValue": {
+              "oid": {
+                "value": "string",
+                "friendlyName": "string"
+              },
+              "rawData": "string"
+            },
+            "encodedParameters": {
+              "oid": {
+                "value": "string",
+                "friendlyName": "string"
+              },
+              "rawData": "string"
+            },
+            "key": {
+              "keySize": 0
+            },
+            "oid": {
+              "value": "string",
+              "friendlyName": "string"
+            }
+          },
+          "rawData": "string",
+          "signatureAlgorithm": {
+            "value": "string",
+            "friendlyName": "string"
+          },
+          "subjectName": {
+            "oid": {
+              "value": "string",
+              "friendlyName": "string"
+            },
+            "rawData": "string"
+          }
+        }
+      },
+      "webSockets": {},
+      "user": {
+        "identities": [
+          {
+            "authenticationType": "string",
+            "bootstrapContext": {},
+            "claims": [
+              null
+            ],
+            "label": "string"
+          }
+        ],
+        "identity": {}
+      },
+      "items": {
+        "additionalProp1": {},
+        "additionalProp2": {},
+        "additionalProp3": {}
+      },
+      "requestServices": {},
+      "requestAborted": {
+        "waitHandle": {
+          "safeWaitHandle": {}
+        }
+      },
+      "traceIdentifier": "string",
+      "session": {}
+    },
+    "method": "string",
+    "scheme": "string",
+    "isHttps": true,
+    "host": {
+      "value": "string",
+      "host": "string",
+      "port": 0
+    },
+    "pathBase": "string",
+    "path": "string",
+    "queryString": {
+      "value": "string"
+    },
+    "query": [
+      {
+        "key": "string",
+        "value": [
+          "string"
+        ]
+      }
+    ],
+    "protocol": "string",
+    "cookies": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ],
+    "contentLength": 0,
+    "contentType": "string",
+    "body": {
+      "position": 0,
+      "readTimeout": 0,
+      "writeTimeout": 0
+    },
+    "bodyReader": {},
+    "form": [
+      {
+        "key": "string",
+        "value": [
+          "string"
+        ]
+      }
+    ],
+    "routeValues": {
+      "additionalProp1": {},
+      "additionalProp2": {},
+      "additionalProp3": {}
+    }
+  },
+  "context": {
+    "defaultQuerySettings": {
+      "enableExpand": true,
+      "enableSelect": true,
+      "enableCount": true,
+      "enableOrderBy": true,
+      "enableFilter": true,
+      "maxTop": 0,
+      "enableSkipToken": true
+    },
+    "model": {
+      "directValueAnnotationsManager": {},
+      "entityContainer": {
+        "schemaElementKind": "None"
+      }
+    },
+    "elementType": {
+      "typeKind": "None"
+    },
+    "navigationSource": {
+      "path": {
+        "expressionKind": "None"
+      },
+      "type": {
+        "typeKind": "None"
+      }
+    },
+    "elementClrType": "string",
+    "path": {
+      "edmType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "segments": [
+        {
+          "edmType": {
+            "typeKind": "None"
+          },
+          "identifier": "string"
+        }
+      ]
+    },
+    "requestContainer": {}
+  },
+  "rawValues": {},
+  "selectExpand": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "validator": {},
+    "selectExpandClause": {
+      "selectedItems": [
+        {}
+      ],
+      "allSelected": true
+    },
+    "levelsMaxLiteralExpansionDepth": 0
+  },
+  "apply": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "applyClause": {
+      "transformations": [
+        {
+          "kind": "Aggregate"
+        }
+      ]
+    },
+    "rawValue": "string"
+  },
+  "filter": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "validator": {},
+    "filterClause": {
+      "expression": {
+        "typeReference": {
+          "definition": {
+            "typeKind": "None"
+          }
+        },
+        "kind": "None"
+      },
+      "rangeVariable": {
+        "typeReference": {
+          "definition": {
+            "typeKind": "None"
+          }
+        }
+      },
+      "itemType": {
+        "definition": {
+          "typeKind": "None"
+        }
+      }
+    },
+    "rawValue": "string"
+  },
+  "orderBy": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "rawValue": "string",
+    "validator": {},
+    "orderByClause": {
+      "expression": {
+        "typeReference": {
+          "definition": {
+            "typeKind": "None"
+          }
+        },
+        "kind": "None"
+      },
+      "direction": "Ascending",
+      "rangeVariable": {
+        "typeReference": {
+          "definition": {
+            "typeKind": "None"
+          }
+        }
+      },
+      "itemType": {
+        "definition": {
+          "typeKind": "None"
+        }
+      }
+    }
+  },
+  "skip": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "rawValue": "string",
+    "validator": {}
+  },
+  "skipToken": {
+    "rawValue": "string",
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "validator": {},
+    "querySettings": {
+      "ensureStableOrdering": true,
+      "handleNullPropagation": "Default",
+      "enableConstantParameterization": true,
+      "enableCorrelatedSubqueryBuffering": true,
+      "pageSize": 0,
+      "handleReferenceNavigationPropertyExpandFilter": true
+    },
+    "queryOptions": {
+      "request": {
+        "httpContext": {
+          "response": {
+            "statusCode": 0,
+            "body": {
+              "position": 0,
+              "readTimeout": 0,
+              "writeTimeout": 0
+            },
+            "bodyWriter": {},
+            "contentLength": 0,
+            "contentType": "string",
+            "cookies": {}
+          },
+          "connection": {
+            "id": "string",
+            "remoteIpAddress": {
+              "addressFamily": "Unknown",
+              "scopeId": 0
+            },
+            "remotePort": 0,
+            "localIpAddress": {
+              "addressFamily": "Unknown",
+              "scopeId": 0
+            },
+            "localPort": 0,
+            "clientCertificate": {
+              "archived": true,
+              "friendlyName": "string",
+              "privateKey": {
+                "keySize": 0
+              },
+              "issuerName": {
+                "oid": {
+                  "value": "string",
+                  "friendlyName": "string"
+                },
+                "rawData": "string"
+              },
+              "publicKey": {
+                "encodedKeyValue": {
+                  "oid": {
+                    "value": "string",
+                    "friendlyName": "string"
+                  },
+                  "rawData": "string"
+                },
+                "encodedParameters": {
+                  "oid": {
+                    "value": "string",
+                    "friendlyName": "string"
+                  },
+                  "rawData": "string"
+                },
+                "key": {
+                  "keySize": 0
+                },
+                "oid": {
+                  "value": "string",
+                  "friendlyName": "string"
+                }
+              },
+              "rawData": "string",
+              "signatureAlgorithm": {
+                "value": "string",
+                "friendlyName": "string"
+              },
+              "subjectName": {
+                "oid": {
+                  "value": "string",
+                  "friendlyName": "string"
+                },
+                "rawData": "string"
+              }
+            }
+          },
+          "webSockets": {},
+          "user": {
+            "identities": [
+              {
+                "authenticationType": "string",
+                "bootstrapContext": {},
+                "claims": [
+                  null
+                ],
+                "label": "string"
+              }
+            ],
+            "identity": {}
+          },
+          "items": {
+            "additionalProp1": {},
+            "additionalProp2": {},
+            "additionalProp3": {}
+          },
+          "requestServices": {},
+          "requestAborted": {
+            "waitHandle": {
+              "safeWaitHandle": {}
+            }
+          },
+          "traceIdentifier": "string",
+          "session": {}
+        },
+        "method": "string",
+        "scheme": "string",
+        "isHttps": true,
+        "host": {
+          "value": "string",
+          "host": "string",
+          "port": 0
+        },
+        "pathBase": "string",
+        "path": "string",
+        "queryString": {
+          "value": "string"
+        },
+        "query": [
+          {
+            "key": "string",
+            "value": [
+              "string"
+            ]
+          }
+        ],
+        "protocol": "string",
+        "cookies": [
+          {
+            "key": "string",
+            "value": "string"
+          }
+        ],
+        "contentLength": 0,
+        "contentType": "string",
+        "body": {
+          "position": 0,
+          "readTimeout": 0,
+          "writeTimeout": 0
+        },
+        "bodyReader": {},
+        "form": [
+          {
+            "key": "string",
+            "value": [
+              "string"
+            ]
+          }
+        ],
+        "routeValues": {
+          "additionalProp1": {},
+          "additionalProp2": {},
+          "additionalProp3": {}
+        }
+      },
+      "context": {
+        "defaultQuerySettings": {
+          "enableExpand": true,
+          "enableSelect": true,
+          "enableCount": true,
+          "enableOrderBy": true,
+          "enableFilter": true,
+          "maxTop": 0,
+          "enableSkipToken": true
+        },
+        "model": {
+          "directValueAnnotationsManager": {},
+          "entityContainer": {
+            "schemaElementKind": "None"
+          }
+        },
+        "elementType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "elementClrType": "string",
+        "path": {
+          "edmType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "segments": [
+            {
+              "edmType": {
+                "typeKind": "None"
+              },
+              "identifier": "string"
+            }
+          ]
+        },
+        "requestContainer": {}
+      },
+      "rawValues": {},
+      "selectExpand": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "validator": {},
+        "selectExpandClause": {
+          "selectedItems": [
+            {}
+          ],
+          "allSelected": true
+        },
+        "levelsMaxLiteralExpansionDepth": 0
+      },
+      "apply": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "applyClause": {
+          "transformations": [
+            {
+              "kind": "Aggregate"
+            }
+          ]
+        },
+        "rawValue": "string"
+      },
+      "filter": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "validator": {},
+        "filterClause": {
+          "expression": {
+            "typeReference": {
+              "definition": {
+                "typeKind": "None"
+              }
+            },
+            "kind": "None"
+          },
+          "rangeVariable": {
+            "typeReference": {
+              "definition": {
+                "typeKind": "None"
+              }
+            }
+          },
+          "itemType": {
+            "definition": {
+              "typeKind": "None"
+            }
+          }
+        },
+        "rawValue": "string"
+      },
+      "orderBy": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "rawValue": "string",
+        "validator": {},
+        "orderByClause": {
+          "expression": {
+            "typeReference": {
+              "definition": {
+                "typeKind": "None"
+              }
+            },
+            "kind": "None"
+          },
+          "direction": "Ascending",
+          "rangeVariable": {
+            "typeReference": {
+              "definition": {
+                "typeKind": "None"
+              }
+            }
+          },
+          "itemType": {
+            "definition": {
+              "typeKind": "None"
+            }
+          }
+        }
+      },
+      "skip": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "rawValue": "string",
+        "validator": {}
+      },
+      "top": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "rawValue": "string",
+        "validator": {}
+      },
+      "count": {
+        "context": {
+          "defaultQuerySettings": {
+            "enableExpand": true,
+            "enableSelect": true,
+            "enableCount": true,
+            "enableOrderBy": true,
+            "enableFilter": true,
+            "maxTop": 0,
+            "enableSkipToken": true
+          },
+          "model": {
+            "directValueAnnotationsManager": {},
+            "entityContainer": {
+              "schemaElementKind": "None"
+            }
+          },
+          "elementType": {
+            "typeKind": "None"
+          },
+          "navigationSource": {
+            "path": {
+              "expressionKind": "None"
+            },
+            "type": {
+              "typeKind": "None"
+            }
+          },
+          "elementClrType": "string",
+          "path": {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "navigationSource": {
+              "path": {
+                "expressionKind": "None"
+              },
+              "type": {
+                "typeKind": "None"
+              }
+            },
+            "segments": [
+              {
+                "edmType": {
+                  "typeKind": "None"
+                },
+                "identifier": "string"
+              }
+            ]
+          },
+          "requestContainer": {}
+        },
+        "rawValue": "string",
+        "validator": {}
+      },
+      "validator": {}
+    }
+  },
+  "top": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "rawValue": "string",
+    "validator": {}
+  },
+  "count": {
+    "context": {
+      "defaultQuerySettings": {
+        "enableExpand": true,
+        "enableSelect": true,
+        "enableCount": true,
+        "enableOrderBy": true,
+        "enableFilter": true,
+        "maxTop": 0,
+        "enableSkipToken": true
+      },
+      "model": {
+        "directValueAnnotationsManager": {},
+        "entityContainer": {
+          "schemaElementKind": "None"
+        }
+      },
+      "elementType": {
+        "typeKind": "None"
+      },
+      "navigationSource": {
+        "path": {
+          "expressionKind": "None"
+        },
+        "type": {
+          "typeKind": "None"
+        }
+      },
+      "elementClrType": "string",
+      "path": {
+        "edmType": {
+          "typeKind": "None"
+        },
+        "navigationSource": {
+          "path": {
+            "expressionKind": "None"
+          },
+          "type": {
+            "typeKind": "None"
+          }
+        },
+        "segments": [
+          {
+            "edmType": {
+              "typeKind": "None"
+            },
+            "identifier": "string"
+          }
+        ]
+      },
+      "requestContainer": {}
+    },
+    "rawValue": "string",
+    "validator": {}
+  },
+  "validator": {}
+}
